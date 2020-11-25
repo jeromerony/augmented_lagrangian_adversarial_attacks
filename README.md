@@ -1,4 +1,4 @@
-This repository contains the experiments for the paper "Augmented Lagrangian Adversarial Attacks". This **does not** contain the ALMA attack proposed in the paper, which is implemented in [adversarial-library](https://github.com/jeromerony/adversarial-library).
+This repository contains the experiments for the paper "Augmented Lagrangian Adversarial Attacks" https://arxiv.org/abs/2011.11857. This **does not** contain the ALMA attack proposed in the paper, which is implemented in [adversarial-library](https://github.com/jeromerony/adversarial-library).
 
 
 ### Requirements
