@@ -41,3 +41,14 @@ To extract all the results in a readable `.csv` file, use the `compile_results.p
 ### Curves
 
 To plot the robust accuracy curves, the scripts `plot_results_mnist.py`, `plot_results_cifar10.py`, `plot_results_imagenet.py` can be executed. This will save the curves in the `results/curves` folder.
+
+### Citation
+
+```bibtex
+@article{rony2020augmented,
+  title={Augmented Lagrangian Adversarial Attacks},
+  author={Rony, J{\'e}r{\^o}me and Granger, Eric and Pedersoli, Marco and {Ben Ayed}, Ismail},
+  journal={arXiv preprint arXiv:2011.11857},
+  year={2020}
+}
+```
