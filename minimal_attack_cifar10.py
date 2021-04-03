@@ -2,8 +2,7 @@ import os
 from functools import partial
 
 import torch
-from adv_lib.attacks import ddn
-from adv_lib.attacks.augmented_lagrangian_attacks import alma
+from adv_lib.attacks import alma, ddn
 from adv_lib.attacks.auto_pgd import minimal_apgd
 from adv_lib.attacks.fast_adaptive_boundary import original_fab
 from adv_lib.attacks.perceptual_color_attacks import perc_al
