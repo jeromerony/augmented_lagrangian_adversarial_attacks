@@ -31,7 +31,6 @@ models = {
 data = torch.load('imagenet_1000_random.pth')
 images, labels = data['images'], data['labels']
 images = images.float() / 255
-images, labels = images[:10], labels[:10]
 
 penalty = all_penalties['P2']
 

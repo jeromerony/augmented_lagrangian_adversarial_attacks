@@ -24,7 +24,6 @@ os.makedirs(os.path.join('data', 'torchvision'), exist_ok=True)
 os.makedirs(os.path.join('results', 'cifar10'), exist_ok=True)
 
 images, labels = load_cifar10(n_examples=1000, data_dir='data/torchvision')
-images, labels = images[:10], labels[:10]
 
 models = {
     'WideResNet_28-10': load_model(model_name='Standard'),
