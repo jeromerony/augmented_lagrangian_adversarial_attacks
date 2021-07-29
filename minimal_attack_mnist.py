@@ -4,7 +4,6 @@ from functools import partial
 import torch
 from adv_lib.attacks import alma, ddn
 from adv_lib.attacks.auto_pgd import minimal_apgd
-from adv_lib.attacks.fast_adaptive_boundary import original_fab
 from adv_lib.utils import requires_grad_
 from adv_lib.utils.attack_utils import run_attack, compute_attack_metrics, print_metrics
 from adv_lib.utils.lagrangian_penalties import all_penalties
@@ -13,6 +12,7 @@ from torchvision import transforms
 from torchvision.datasets import MNIST
 
 from attacks.foolbox import ead_attack
+from attacks.original_fab import original_fab
 from models.mnist import SmallCNN, IBP_large
 
 torch.backends.cudnn.deterministic = True

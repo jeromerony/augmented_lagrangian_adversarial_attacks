@@ -4,7 +4,6 @@ from functools import partial
 import torch
 from adv_lib.attacks import alma, ddn
 from adv_lib.attacks.auto_pgd import minimal_apgd
-from adv_lib.attacks.fast_adaptive_boundary import original_fab
 from adv_lib.attacks.perceptual_color_attacks import perc_al
 from adv_lib.distances.color_difference import ciede2000_loss
 from adv_lib.distances.lpips import LPIPS
@@ -13,6 +12,7 @@ from adv_lib.utils.attack_utils import run_attack, compute_attack_metrics, print
 from adv_lib.utils.lagrangian_penalties import all_penalties
 
 from attacks.foolbox import ead_attack
+from attacks.original_fab import original_fab
 from models.imagenet import imagenet_model_factory
 
 torch.backends.cudnn.deterministic = True
