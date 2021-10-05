@@ -45,10 +45,12 @@ To plot the robust accuracy curves, the scripts `plot_results_mnist.py`, `plot_r
 ### Citation
 
 ```bibtex
-@article{rony2020augmented,
-  title={Augmented Lagrangian Adversarial Attacks},
-  author={Rony, J{\'e}r{\^o}me and Granger, Eric and Pedersoli, Marco and {Ben Ayed}, Ismail},
-  journal={arXiv preprint arXiv:2011.11857},
-  year={2020}
+@InProceedings{rony2020augmented,
+    author    = {Rony, J{\'e}r{\^o}me and Granger, Eric and Pedersoli, Marco and {Ben Ayed}, Ismail},
+    title     = {Augmented Lagrangian Adversarial Attacks},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {7738-7747}
 }
 ```
