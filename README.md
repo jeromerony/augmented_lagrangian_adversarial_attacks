@@ -17,7 +17,7 @@ This repository contains the experiments for the paper "Augmented Lagrangian Adv
 
 The model state dicts for MNIST, CIFAR10 and ImageNet are fetched from various locations. 
 
-To ease reproducibility, we use the robustbench library to fetch the models for CIFAR10 (no action required here). For MNIST and ImageNet, the models can be fetched from their original repositories, however, we provide the models in a separate zip file to simplify the process. The zip file can downloaded at: https://etsmtl365-my.sharepoint.com/:u:/g/personal/jerome_rony_1_ens_etsmtl_ca/EYKHVZ-jT2xHsHUYeSUDMz4BsNHSTuUlgGpDYZvYkgU7hA?e=gY9B9C
+To ease reproducibility, we use the robustbench library to fetch the models for CIFAR10 (no action required here). For MNIST and ImageNet, the models can be fetched from their original repositories, however, we provide the models in a separate zip file to simplify the process. The zip file can downloaded at: https://zenodo.org/record/6549010, or using the direct download link https://zenodo.org/record/6549010/files/ALMA_models_data.zip.
 
 This zip file also contains the 1000 randomly selected images from the ImageNet validation set. These images have already been pre-processed (center-crop of 224x224) and stored into a pytorch Tensor.
 
