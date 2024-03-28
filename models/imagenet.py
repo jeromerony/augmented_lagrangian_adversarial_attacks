@@ -2,7 +2,7 @@ from typing import Optional
 
 import torch
 from PIL import Image
-from advtools.utils import normalize_model, requires_grad_
+from adv_lib.utils import normalize_model, requires_grad_
 from torchvision import transforms, models
 
 
